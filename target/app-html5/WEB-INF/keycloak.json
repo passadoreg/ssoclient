@@ -1,0 +1,8 @@
+{
+  "realm": "master",
+  "auth-server-url": "https://sso-rhssotest2.apps-crc.testing/auth",
+  "ssl-required": "external",
+  "resource": "app-html5",
+  "public-client": true,
+  "confidential-port": 0
+}
