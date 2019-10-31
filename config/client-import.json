@@ -1,12 +1,14 @@
 {
     "clientId": "app-html5",
-    "rootUrl": "http://localhost:8080/app-html5",
+    "rootUrl": "http://ssoclient-rhssotest2.apps-crc.testing/app-html5",
     "enabled": true,
     "redirectUris": [
-        "http://localhost:8080/app-html5/*"
+        "http://ssoclient-rhssotest2.apps-crc.testing/app-html5/*"
     ],
     "webOrigins": [
-        "http://localhost:8080"
+        "http://localhost:8080",
+        "https://sso-rhssotest2.apps-crc.testing/",
+        "http://springbootsso-rhssotest2.apps-crc.testing/"
     ],
     "publicClient": true
 }
